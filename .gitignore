@@ -1,2 +1,9 @@
+
+# JUCE Build files
 Builds/MacOSX/build/*
+Builds/LinuxMakefile/build/*
+
+# Jupyter Notebook
+Documentation/.ipynb_checkpoints/*
+
 
