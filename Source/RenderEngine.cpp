@@ -151,6 +151,7 @@ void RenderEngine::fillAudioFeatures (const AudioSampleBuffer& data,
         currentRmsFrame += (currentFrame * currentFrame);
 
         // Extract features.
+        // ****** TODO disable for audio-only rendering *****
         if (fft.process (currentFrame))
         {
             // This isn't real-time so I can take the luxuary of allocating

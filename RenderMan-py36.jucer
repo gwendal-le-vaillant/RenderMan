@@ -3,7 +3,8 @@
 <JUCERPROJECT id="EHAJpP" name="RenderMan_python3" projectType="dll" version="1.0.0"
               bundleIdentifier="com.yourcompany.RenderMan" includeBinaryInAppConfig="1"
               jucerVersion="5.4.7" displaySplashScreen="0" reportAppUsage="0"
-              splashScreenColour="Dark" cppLanguageStandard="11" companyCopyright="">
+              splashScreenColour="Dark" cppLanguageStandard="11" companyCopyright=""
+              defines="VST_LOGGING=0">
   <MAINGROUP id="tONOKg" name="RenderMan_python3">
     <GROUP id="{4A809F36-0B47-21E3-7688-8CF65B68EF74}" name="Maximilian">
       <GROUP id="{581DA4A2-AF43-FE18-47C2-CA1585A8F30E}" name="libs">
