@@ -146,7 +146,8 @@ void RenderEngine::fillAudioFeatures (const AudioSampleBuffer& data,
 
         // Save the audio for playback and plotting!
         processedMonoAudioPreview.push_back (currentFrame);
-
+        
+        /* RMS volume and Features DISABLED - Python/librosa will handle this
         // RMS.
         currentRmsFrame += (currentFrame * currentFrame);
 
@@ -172,6 +173,7 @@ void RenderEngine::fillAudioFeatures (const AudioSampleBuffer& data,
             rmsFrames.push_back (currentRmsFrame);
             currentRmsFrame = 0.0;
         }
+        */
     }
 }
 

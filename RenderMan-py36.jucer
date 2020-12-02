@@ -85,11 +85,12 @@
       </MODULEPATHS>
     </VS2015>
     <LINUX_MAKE targetFolder="Builds/LinuxMakefile" vst3Folder="VST3_SDK" extraCompilerFlags="-fPIC"
-                extraLinkerFlags="-shared -lpython3.7m -lboost_python37" cppLanguageStandard="-std=c++11">
+                extraLinkerFlags="-shared -lpython3.8 -lboost_python38" cppLanguageStandard="-std=c++11"
+                userNotes="python 3.8 : 'm' lib extension no longer required https://bugs.python.org/issue36707">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="renderman"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="renderman"
-                       headerPath="/home/gwendal/anaconda3/include/python3.7m&#10;/home/gwendal/boost_1_74_0"
+                       headerPath="/home/gwendal/anaconda3/include/python3.8&#10;/home/gwendal/boost_1_74_0"
                        libraryPath="&#10;/home/gwendal/anaconda3/lib&#10;/home/gwendal/boost_1_74_0/stage/lib"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
